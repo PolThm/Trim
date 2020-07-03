@@ -1,0 +1,15 @@
+@import "./sass/libs/keyframes.scss";
+@import "./sass/libs/fonts.scss";
+@import "./sass/libs/mediaQueries.scss";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+.space {
+  min-height: 100vh;
+}

@@ -1,3 +1,58 @@
+header {
+  min-height: 105vh;
+  margin-top: -5vh;
+  background: url("../img/hero_area/bg/hero-area-bg.png") no-repeat;
+  background-size: cover;
+}
 
+.header_top {
+  padding-top: 11vh;
+  color: white;
+}
+.header_top .logo:hover {
+  opacity: 0.8;
+}
+.header_top nav {
+  width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+}
+.header_top nav ul {
+  list-style-type: none;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.header_top nav ul li {
+  flex: 1 1 auto;
+  text-align: center;
+  position: relative;
+}
+.header_top nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding: 5px 0;
+}
+.header_top nav a:hover {
+  color: #2f99c6;
+}
+.header_top nav button {
+  margin-top: -5px;
+  padding: 10px 20px;
+  background-color: #2f99c6;
+  border-radius: 4px;
+  border: transparent 1px solid;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.header_top nav button:hover {
+  background-color: transparent;
+  border: #2f99c6 1px solid;
+  color: #2f99c6;
+}
 
 /*# sourceMappingURL=HeroArea.css.map */
