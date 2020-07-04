@@ -1,3 +1,57 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadeInRightPol {
+  0% {
+    opacity: 0;
+    transform: translate3d(300%, 0, 0);
+  }
+  67% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadeInRightPolSmartphone {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  67% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 header {
   min-height: 105vh;
   margin-top: -5vh;
@@ -22,7 +76,7 @@ header {
   list-style-type: none;
   display: flex;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 .header_top nav ul li {
   flex: 1 1 auto;
@@ -44,15 +98,56 @@ header {
   padding: 10px 20px;
   background-color: #2f99c6;
   border-radius: 4px;
-  border: transparent 1px solid;
+  border: transparent 2px solid;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  outline: none;
 }
 .header_top nav button:hover {
+  transition: background-color 100ms ease-in-out, border 100ms ease-in-out, color 100ms ease-in-out;
   background-color: transparent;
-  border: #2f99c6 1px solid;
+  border: #2f99c6 2px solid;
   color: #2f99c6;
+}
+
+.middle_section {
+  margin-top: 12.5vh;
+}
+.middle_section h2 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.4rem;
+}
+.middle_section h5 {
+  margin-top: 4vh;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.middle_section button {
+  margin-top: 5vh;
+  padding: 10px 20px;
+  background-color: #fdcc92;
+  background-image: linear-gradient(to right, #fdcc92, #f45c74);
+  background-origin: border-box;
+  border-radius: 4px;
+  border: transparent 2px solid;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  outline: none;
+}
+.middle_section button:hover {
+  color: #fdcc92;
+  background-image: -webkit-linear-gradient(to right, #fdcc92, #f45c74);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid;
+  border-image-source: linear-gradient(45deg, #fdcc92, #f45c74);
+  border-image-slice: 1;
 }
 
 /*# sourceMappingURL=HeroArea.css.map */

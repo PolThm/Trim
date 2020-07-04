@@ -1,3 +1,9 @@
+@import "../sassLibs/keyframes.scss";
+
+$primary: white;
+$secondary: #2e343b;
+$tertiary: #2f99c6;
+
 header {
   min-height: 105vh;
   margin-top: -5vh;
@@ -7,7 +13,7 @@ header {
 
 .header_top {
   padding-top: 11vh;
-  color: white;
+  color: $primary;
 
   .logo {
     &:hover {
@@ -24,7 +30,7 @@ header {
       list-style-type: none;
       display: flex;
       font-family: "Roboto", sans-serif;
-      font-weight: 700;
+      font-weight: 500;
       li {
         flex: 1 1 auto;
         text-align: center;
@@ -34,27 +40,70 @@ header {
     a {
       display: block;
       text-decoration: none;
-      color: white;
+      color: $primary;
       border-bottom: 2px solid transparent;
       padding: 5px 0;
       &:hover {
-        color: #2f99c6;
+        color: $tertiary;
       }
     }
     button {
       margin-top: -5px;
       padding: 10px 20px;
-      background-color: #2f99c6;
+      background-color: $tertiary;
       border-radius: 4px;
-      border: transparent 1px solid;
+      border: transparent 2px solid;
       color: white;
       font-family: "Roboto", sans-serif;
-      font-weight: 700;
+      font-weight: 500;
+      outline: none;
       &:hover {
+        $time: 100ms;
+        transition: background-color $time ease-in-out, border $time ease-in-out, color $time ease-in-out;
         background-color: transparent;
-        border: #2f99c6 1px solid;
-        color: #2f99c6;
+        border: $tertiary 2px solid;
+        color: $tertiary;
       }
     }
   }
+}
+
+.middle_section {
+  margin-top: 12.5vh;
+  h2 {
+    color: $primary;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.4rem;
+  }
+  h5 {
+    margin-top: 4vh;
+    color: $primary;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height : 1.8;
+  }
+  button {
+    margin-top: 5vh;
+    padding: 10px 20px;
+    background-color: #fdcc92;
+    background-image: linear-gradient(to right, #fdcc92, #f45c74);
+    background-origin: border-box;
+    border-radius: 4px;
+    border: transparent 2px solid;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    outline: none;
+    &:hover {
+      color: #fdcc92;
+      background-image: -webkit-linear-gradient(to right, #fdcc92, #f45c74);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      border: 2px solid;
+      border-image-source: linear-gradient(45deg, #fdcc92, #f45c74);
+      border-image-slice: 1;
+    }
+  }
+
 }
