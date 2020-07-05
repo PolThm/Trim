@@ -5,16 +5,16 @@ import ServiceBox from "./ServiceBox";
 
 class Services extends React.Component {
   state = {
-    serviceIsHover: false
+    serviceIsHover: null
   };
 
-  componentDidMount() {
-    console.log(this.state.serviceIsHover)
-  }
-
-  componentDidUpdate() {
-    console.log(this.state.serviceIsHover)
-  }
+  // componentDidMount() {
+  //   console.log(this.state.serviceIsHover)
+  // }
+  //
+  // componentDidUpdate() {
+  //   console.log(this.state.serviceIsHover)
+  // }
 
   serviceIsHover = (value) => {
     this.setState({
@@ -33,13 +33,13 @@ class Services extends React.Component {
         <div className={"services"}>
           <Row>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#faa889"} title={"Online Marketing"} isHover={false} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover}/>
+              <ServiceBox bgIcon={"#faa889"} title={"Online Marketing"} isHover={false} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover} class={"serviceBox"}/>
             </Col>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#8bc2e4"} title={"Web Development"} isHover={true} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover}/>
+              <ServiceBox bgIcon={"#8bc2e4"} title={"Web Development"} isHover={true} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover} class={"serviceBox boxInTheCenter"}/>
             </Col>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#c89bc8"} title={"UI/UX Design"} isHover={false} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover}/>
+              <ServiceBox bgIcon={"#c89bc8"} title={"UI/UX Design"} isHover={false} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover} class={"serviceBox"}/>
             </Col>
           </Row>
         </div>

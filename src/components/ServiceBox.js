@@ -4,9 +4,9 @@ import servicesIcon from "../img/services/services-icon.png";
 import {Image} from "react-bootstrap";
 
 class ServiceBox extends Component {
-  // state = {
-  //   isHover: this.props.isHover
-  // };
+  state = {
+    isHover: null
+  };
 
 
   serviceIsHover = () => {
@@ -17,15 +17,44 @@ class ServiceBox extends Component {
     this.props.serviceIsHover(false);
   };
 
+  onMouseEnter = () => {
+    this.serviceIsHover();
+    this.setState({
+      isHover: true
+    })
+  };
+
+  onMouseLeave = () => {
+    this.serviceIsNotHover();
+    this.setState({
+      isHover: false
+    })
+  };
+
   render() {
     let isItHover = "serviceBox";
 
-    if (this.props.isHover) {
+    // if (this.props.isHover) {
+    //   isItHover = "serviceBox boxInTheCenter"
+    // }
+
+    if (this.state.isHover === null) {
+      if (this.props.isHover) {
+        isItHover = "serviceBox boxInTheCenter"
+      }
+    }
+
+    if (this.state.isHover) {
       isItHover = "serviceBox boxInTheCenter"
     }
 
+
+
+
+
+
     return (
-      <div onMouseEnter={() => this.serviceIsHover()} onMouseLeave={() => this.serviceIsNotHover()} className={isItHover} >
+      <div onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave} className={isItHover} >
         <div className={"iconBox"} style={{backgroundColor: this.props.bgIcon}}>
           <Image src={servicesIcon} />
         </div>

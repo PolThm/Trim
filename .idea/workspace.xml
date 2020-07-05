@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b3eb94-a424-4de7-bd60-c9b401600707" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ServiceBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/serviceBox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/services/services-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServiceBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +88,7 @@
       <updated>1593685259665</updated>
       <workItem from="1593685261518" duration="7542000" />
       <workItem from="1593771785248" duration="17144000" />
-      <workItem from="1593947394378" duration="12685000" />
+      <workItem from="1593947394378" duration="13702000" />
     </task>
     <task id="LOCAL-00001" summary="React Template">
       <created>1593707039538</created>
@@ -136,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593964505076</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Services : done (without the hover part)">
+      <created>1593975275030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593975275030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +158,7 @@
     <MESSAGE value="Hero Area : BG + Navbar" />
     <MESSAGE value="Hero Area : Done !" />
     <MESSAGE value="Services : &quot;Title&quot; done !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Services : &quot;Title&quot; done !" />
+    <MESSAGE value="Services : done (without the hover part)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Services : done (without the hover part)" />
   </component>
 </project>
