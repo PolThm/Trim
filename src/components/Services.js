@@ -5,24 +5,22 @@ import ServiceBox from "./ServiceBox";
 
 class Services extends React.Component {
   state = {
-    serviceIsHover: null
+    hasBeenHovered: false
   };
 
-  // componentDidMount() {
-  //   console.log(this.state.serviceIsHover)
-  // }
-  //
-  // componentDidUpdate() {
-  //   console.log(this.state.serviceIsHover)
-  // }
-
-  serviceIsHover = (value) => {
+  hasBeenHovered = (value) => {
     this.setState({
-      serviceIsHover: value
+      hasBeenHovered: value
     });
   };
 
   render() {
+    let serviceClass = "serviceBox boxInTheCenter";
+
+    if (this.state.hasBeenHovered) {
+      serviceClass = "serviceBox "
+    }
+
     return (
       <Container>
         <div className={"title"}>
@@ -33,13 +31,13 @@ class Services extends React.Component {
         <div className={"services"}>
           <Row>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#faa889"} title={"Online Marketing"} isHover={false} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover} class={"serviceBox"}/>
+              <ServiceBox bgIcon={"#faa889"} title={"Online Marketing"} isInitiallyHover={false} hasBeenHovered={this.hasBeenHovered} class={"serviceBox"}/>
             </Col>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#8bc2e4"} title={"Web Development"} isHover={true} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover} class={"serviceBox boxInTheCenter"}/>
+              <ServiceBox bgIcon={"#8bc2e4"} title={"Web Development"} isInitiallyHover={true} hasBeenHovered={this.hasBeenHovered} class={serviceClass}/>
             </Col>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#c89bc8"} title={"UI/UX Design"} isHover={false} serviceIsHover={this.serviceIsHover} hover={this.state.serviceIsHover} class={"serviceBox"}/>
+              <ServiceBox bgIcon={"#c89bc8"} title={"UI/UX Design"} isInitiallyHover={false} hasBeenHovered={this.hasBeenHovered} class={"serviceBox"}/>
             </Col>
           </Row>
         </div>

@@ -10,13 +10,13 @@ $blue: #292479;
   padding: 45px 10px 30px 10px;
   border: 1px #efefef solid;
   border-radius: 8px;
-  //&:hover {
-  //  border: solid 1px transparent;
-  //  border-radius: 8px;
-  //  background-image: linear-gradient(white, white), radial-gradient(circle at top left, $purple, $blue);
-  //  background-origin: border-box;
-  //  background-clip: padding-box, border-box;
-  //}
+  &:hover {
+    border: solid 1px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, $purple, $blue);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
   .iconBox {
     height: 105px;
     width: 105px;
@@ -42,12 +42,5 @@ $blue: #292479;
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
-
-//.col-4 .serviceBox {
-//  &:hover {
-//    border: solid 1px #efefef;
-//    background-image: none;
-//  }
-//}
 
 
