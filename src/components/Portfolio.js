@@ -4,7 +4,6 @@ import {Col, Container, Image, Row} from "react-bootstrap";
 import portfolioCard1 from "../img/portfolio/cards/portfolio-card-1.png";
 import portfolioCard2 from "../img/portfolio/cards/portfolio-card-2.png";
 import portfolioCard3 from "../img/portfolio/cards/portfolio-card-3.png";
-import ServiceBox from "./ServiceBox";
 
 
 const Portfolio = () => {
@@ -20,19 +19,21 @@ const Portfolio = () => {
           <Row>
             <Col xs={4}>
               <Image className={"card"} src={portfolioCard1} />
+              <Image className={"card mirror left"} src={portfolioCard3} />
             </Col>
-            <Col xs={4}>
+            <Col xs={4} className={"colCenter"}>
               <Image className={"card on"} src={portfolioCard2} />
+              <div className={"slider"}>
+                <div className={"slider-dot"}/>
+                <div className={"slider-dot on"}/>
+                <div className={"slider-dot"}/>
+              </div>
             </Col>
             <Col xs={4}>
               <Image className={"card"} src={portfolioCard3} />
+              <Image className={"card mirror right"} src={portfolioCard1} />
             </Col>
           </Row>
-        </div>
-        <div className={"slider"}>
-          <div className={"slider-dot"}/>
-          <div className={"slider-dot on"}/>
-          <div className={"slider-dot"}/>
         </div>
       </Container>
     </div>

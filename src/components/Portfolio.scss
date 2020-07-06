@@ -13,29 +13,52 @@ $primary: white;
     }
   }
 
+  .colCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .cards {
     display: flex;
-    .card {
-      margin-top: 25vh;
-      background: transparent;
-      border: none;
-      width: 100%;
-    }
-    .card.on {
-      margin-top: 15vh;
-    }
+    z-index: 0;
+  }
+  .card {
+    margin-top: 25vh;
+    background: transparent;
+    border: none;
+    width: 100%;
+    //box-shadow: 0px 0px 1px #ab3b9f;
+    //border-radius: 20px;
+  }
+  .card.on {
+    margin-top: 15vh;
+  }
+  .card.mirror {
+    position: absolute;
+    top: 0;
+    width: 92%;
+    opacity: 0.75;
+    filter: grayscale(33%);
+  }
+  .card.mirror.left {
+    left: -364px;
+  }
+  .card.mirror.right {
+    left: 395px;
   }
 
   .slider {
-    margin-top: -2vh;
     display: flex;
     justify-content: center;
+    z-index: 100;
     .slider-dot {
       width: 15px;
       height: 15px;
       background-color: $primary;
       border-radius: 50px;
-      margin: 5px;
+      margin: 0 5px 0 5px;
+      cursor: pointer;
     }
     .slider-dot.on {
       background-color: #f9be4e;
