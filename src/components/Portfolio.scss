@@ -30,6 +30,11 @@ $primary: white;
     border: none;
     width: 100%;
     cursor: pointer;
+    transition: transform 100ms ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
   }
   .card.on {
     margin-top: 15vh;
@@ -41,6 +46,9 @@ $primary: white;
     opacity: 0.75;
     filter: grayscale(33%);
     cursor: default;
+    &:hover {
+      transform: none;
+    }
   }
   .card.mirror.left {
     left: -364px;

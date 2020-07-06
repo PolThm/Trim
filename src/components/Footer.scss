@@ -1,0 +1,43 @@
+.footer {
+  background: url("../img/footer/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  min-height: 74vh;
+  margin-top: 10vh;
+  color: white;
+
+  .content {
+    padding-top: 34vh;
+    display: flex;
+    justify-content: space-between;
+
+    .col {
+      .links {
+        height: 17vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        div {
+          margin-bottom: 4.8px;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    margin-top: 7vh;
+    text-align: center;
+    p {
+      margin-bottom: 0;
+      span a {
+        color: #f45c74;
+        &:hover {
+          color: #fdcc92;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

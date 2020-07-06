@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./serviceBox.css"
+import "./ServiceBox.css"
 import servicesIcon from "../img/services/services-icon.png";
 import {Image} from "react-bootstrap";
 

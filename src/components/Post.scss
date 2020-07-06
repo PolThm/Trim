@@ -9,7 +9,7 @@ $blue: #292479;
   font-weight: 400;
   transition: transform 100ms ease-in-out;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     opacity: 0.9;
   }
 
@@ -38,9 +38,11 @@ $blue: #292479;
   }
 
   .infos {
-    padding: 40px 30px 0 30px;
+    padding: 30px 30px 0 30px;
     display: flex;
     justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     .likes_coms {
       display: flex;
       .coms {
@@ -55,8 +57,9 @@ $blue: #292479;
     color: #b53da2;
   }
 
-  h4 {
-    padding: 40px 30px 50px 30px;
+  p {
+    margin-bottom: 0;
+    padding: 30px 30px 40px 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;

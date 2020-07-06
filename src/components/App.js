@@ -15,8 +15,6 @@ const App = () => {
       <Testimonial/>
       <BlogPost/>
       <Footer/>
-
-      <div className={"space"}/>
     </React.Fragment>
   );
 };
