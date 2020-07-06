@@ -31,13 +31,13 @@ class Services extends React.Component {
         <div className={"services"}>
           <Row>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#faa889"} title={"Online Marketing"} isInitiallyHover={false} hasBeenHovered={this.hasBeenHovered} class={"serviceBox"}/>
+              <ServiceBox bgIcon={"#faa889"} title={"Online Marketing"} hasBeenHovered={this.hasBeenHovered} class={"serviceBox"}/>
             </Col>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#8bc2e4"} title={"Web Development"} isInitiallyHover={true} hasBeenHovered={this.hasBeenHovered} class={serviceClass}/>
+              <ServiceBox bgIcon={"#8bc2e4"} title={"Web Development"} hasBeenHovered={this.hasBeenHovered} class={serviceClass}/>
             </Col>
             <Col xs={4}>
-              <ServiceBox bgIcon={"#c89bc8"} title={"UI/UX Design"} isInitiallyHover={false} hasBeenHovered={this.hasBeenHovered} class={"serviceBox"}/>
+              <ServiceBox bgIcon={"#c89bc8"} title={"UI/UX Design"} hasBeenHovered={this.hasBeenHovered} class={"serviceBox"}/>
             </Col>
           </Row>
         </div>
@@ -45,7 +45,5 @@ class Services extends React.Component {
     )
   };
 }
-
-
 
 export default Services;

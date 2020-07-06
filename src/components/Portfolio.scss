@@ -1,0 +1,44 @@
+$primary: white;
+
+.portfolio {
+  margin-top: 11vh;
+  min-height: 150vh;
+  background: url("../img/portfolio/bg/portfolio-bg.jpg") no-repeat;
+  background-size: cover;
+
+  .title {
+    padding-top: 33vh;
+    h2, h5 {
+      color: $primary;
+    }
+  }
+
+  .cards {
+    display: flex;
+    .card {
+      margin-top: 25vh;
+      background: transparent;
+      border: none;
+      width: 100%;
+    }
+    .card.on {
+      margin-top: 15vh;
+    }
+  }
+
+  .slider {
+    margin-top: -2vh;
+    display: flex;
+    justify-content: center;
+    .slider-dot {
+      width: 15px;
+      height: 15px;
+      background-color: $primary;
+      border-radius: 50px;
+      margin: 5px;
+    }
+    .slider-dot.on {
+      background-color: #f9be4e;
+    }
+  }
+}

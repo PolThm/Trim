@@ -24,6 +24,4 @@ class ServiceBox extends Component {
   };
 }
 
-
-
 export default ServiceBox;

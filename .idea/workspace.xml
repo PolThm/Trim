@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13b3eb94-a424-4de7-bd60-c9b401600707" name="Default Changelist" comment="" />
+    <list default="true" id="13b3eb94-a424-4de7-bd60-c9b401600707" name="Default Changelist" comment="Portfolio">
+      <change afterPath="$PROJECT_DIR$/src/components/Portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/hero_area/bg/hero-area-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio/bg/portfolio-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio/cards/portfolio-card-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio/cards/portfolio-card-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio/cards/portfolio-card-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServiceBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/hero_area/bg/hero-area-bg.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +98,7 @@
       <updated>1593685259665</updated>
       <workItem from="1593685261518" duration="7542000" />
       <workItem from="1593771785248" duration="17144000" />
-      <workItem from="1593947394378" duration="15069000" />
+      <workItem from="1593947394378" duration="18850000" />
     </task>
     <task id="LOCAL-00001" summary="React Template">
       <created>1593707039538</created>
@@ -142,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594030350614</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Services : done (with the hover part !)">
+      <created>1594030419908</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594030419908</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
