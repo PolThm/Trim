@@ -64,7 +64,16 @@ $blue: #292479;
     font-weight: 500;
     font-size: 1.2rem;
   }
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .coms {
+    margin-left: 0 !important;
+  }
+}
 
-
+@media (max-width: 767px) {
+  .toRemoveOnPhone {
+    display: none;
+  }
 }

@@ -16,7 +16,7 @@ const BlogPost = () => {
       </div>
       <div className={"posts"}>
         <Row>
-          <Col xs={4}>
+          <Col sm={12} md={4}>
             <Post
               img={imgPost1}
               date={"14 May. 2019"}
@@ -27,7 +27,7 @@ const BlogPost = () => {
               "most of the typical."}
             />
           </Col>
-          <Col xs={4}>
+          <Col md={4} className={"toRemoveOnPhone"}>
             <Post
               img={imgPost2}
               date={"22 June. 2019"}
@@ -38,7 +38,7 @@ const BlogPost = () => {
               "most of the typical."}
             />
           </Col>
-          <Col xs={4}>
+          <Col md={4} className={"toRemoveOnPhone"}>
             <Post
               img={imgPost3}
               date={"5 July. 2019"}

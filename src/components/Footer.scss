@@ -28,6 +28,7 @@
 
   .bottom {
     margin-top: 7vh;
+    padding-bottom: 7vh;
     text-align: center;
     p {
       margin-bottom: 0;
@@ -39,5 +40,12 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
   }
 }

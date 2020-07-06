@@ -22,7 +22,7 @@ $primary: white;
   .cards {
     padding-bottom: 30vh;
     display: flex;
-    z-index: 0;
+    justify-content: center;
   }
   .card {
     margin-top: 25vh;
@@ -74,9 +74,17 @@ $primary: white;
   }
 }
 
-// 0 to large display
 @media (max-width: 1885px) {
   .card.mirror {
     display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .colSides {
+    display: none;
+  }
+  .slider {
+    margin-top: 40px;
   }
 }

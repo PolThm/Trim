@@ -30,13 +30,13 @@ class Services extends React.Component {
         </div>
         <div className={"services"}>
           <Row>
-            <Col xs={4}>
+            <Col xs={0} md={4}>
               <ServiceBox bgIcon={"#faa889"} title={"Online Marketing"} hasBeenHovered={this.hasBeenHovered} class={"serviceBox"}/>
             </Col>
-            <Col xs={4}>
+            <Col xs={12} md={4}>
               <ServiceBox bgIcon={"#8bc2e4"} title={"Web Development"} hasBeenHovered={this.hasBeenHovered} class={serviceClass}/>
             </Col>
-            <Col xs={4}>
+            <Col xs={0} md={4}>
               <ServiceBox bgIcon={"#c89bc8"} title={"UI/UX Design"} hasBeenHovered={this.hasBeenHovered} class={"serviceBox"}/>
             </Col>
           </Row>

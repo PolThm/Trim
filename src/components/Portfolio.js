@@ -17,11 +17,11 @@ const Portfolio = () => {
         </div>
         <div className={"cards"}>
           <Row>
-            <Col xs={4}>
+            <Col md={4} className={"colSides"}>
               <Image className={"card"} src={portfolioCard1} />
               <Image className={"card mirror left"} src={portfolioCard3} />
             </Col>
-            <Col xs={4} className={"colCenter"}>
+            <Col xs={12} md={4} className={"colCenter"}>
               <Image className={"card on"} src={portfolioCard2} />
               <div className={"slider"}>
                 <div className={"slider-dot"}/>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                 <div className={"slider-dot"}/>
               </div>
             </Col>
-            <Col xs={4}>
+            <Col md={4} className={"colSides"}>
               <Image className={"card"} src={portfolioCard3} />
               <Image className={"card mirror right"} src={portfolioCard1} />
             </Col>

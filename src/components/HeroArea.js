@@ -26,8 +26,8 @@ const HeroArea = () => {
         </Row>
       </Container>
       <Container className={"middle_section"}>
-        <h1>It's easy to make a <br/>
-          buck & tougher to <br/>
+        <h1>It's easy to make a<br/>
+          buck & tougher to<br/>
           make difference.</h1>
         <h5>The point of using Lorem Ipsum is that it has a more normal <br/>
           distribution of letters, as opposed to using content.</h5>
