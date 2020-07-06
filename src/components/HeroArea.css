@@ -119,6 +119,7 @@ header {
 }
 .middle_section button {
   margin-top: 5vh;
+  margin-bottom: 20vh;
   padding: 10px 20px;
   background-color: #fdcc92;
   background-image: linear-gradient(to right, #fdcc92, #f45c74);

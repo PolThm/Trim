@@ -20,6 +20,7 @@ $primary: white;
   }
 
   .cards {
+    padding-bottom: 30vh;
     display: flex;
     z-index: 0;
   }
@@ -62,5 +63,12 @@ $primary: white;
     .slider-dot.on {
       background-color: #f9be4e;
     }
+  }
+}
+
+// 0 to large display
+@media (max-width: 1919px) {
+  .card.mirror {
+    display: none;
   }
 }
