@@ -2,12 +2,12 @@ $primary: white;
 
 .portfolio {
   margin-top: 11vh;
-  min-height: 150vh;
+  min-height: 135vh;
   background: url("../img/portfolio/bg/portfolio-bg.jpg") no-repeat;
   background-size: cover;
 
   .title {
-    padding-top: 33vh;
+    padding-top: 27vh;
     h2, h5 {
       color: $primary;
     }
@@ -28,8 +28,7 @@ $primary: white;
     background: transparent;
     border: none;
     width: 100%;
-    //box-shadow: 0px 0px 1px #ab3b9f;
-    //border-radius: 20px;
+    cursor: pointer;
   }
   .card.on {
     margin-top: 15vh;
@@ -40,6 +39,7 @@ $primary: white;
     width: 92%;
     opacity: 0.75;
     filter: grayscale(33%);
+    cursor: default;
   }
   .card.mirror.left {
     left: -364px;
@@ -51,7 +51,6 @@ $primary: white;
   .slider {
     display: flex;
     justify-content: center;
-    z-index: 100;
     .slider-dot {
       width: 15px;
       height: 15px;

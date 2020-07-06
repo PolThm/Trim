@@ -1,0 +1,30 @@
+.content {
+  margin-top: 8vh;
+  margin-right: 3.1rem;
+}
+.content .profil-picture {
+  width: 80%;
+}
+.content .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content .slider {
+  margin-top: -15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.content .slider .slider-dot {
+  width: 25px;
+  height: 8px;
+  background-color: #33267c;
+  border-radius: 50px;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
+.content .slider .slider-dot.on {
+  background-color: #a818ca;
+}
+
+/*# sourceMappingURL=Testimonial.css.map */
