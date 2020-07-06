@@ -3,7 +3,7 @@ import "./Testimony.css";
 
 const Testimony = (props) => {
   return (
-    <div>
+    <div className={"testimony"}>
       <p className={"message"}>{props.message}</p>
       <p className={"author"}>{props.author}</p>
       <p className={"job"}>{props.job}</p>

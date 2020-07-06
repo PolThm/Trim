@@ -1,0 +1,67 @@
+$purple: #ab3b9f;
+$blue: #292479;
+
+.post {
+  border: 1px #efefef solid;
+  border-radius: 16px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  transition: transform 100ms ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 14px;
+  }
+
+  .dateBox {
+    display: flex;
+    justify-content: center;
+    .date {
+      margin-top: -27px;
+      text-align: center;
+      padding: 15px 30px;
+      border-radius: 50px;
+      width: 50%;
+      font-size: 1rem;
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-weight: 600;
+      background-color: #a818ca;
+      background-image: linear-gradient(to right, $purple, $blue);
+      background-origin: border-box;
+    }
+  }
+
+  .infos {
+    padding: 40px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    .likes_coms {
+      display: flex;
+      .coms {
+        margin-left: 30px;
+      }
+    }
+  }
+  .fas {
+    margin-right: 10px;
+  }
+  .fa-heart {
+    color: #b53da2;
+  }
+
+  h4 {
+    padding: 40px 30px 50px 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+
+
+}

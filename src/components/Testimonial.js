@@ -7,7 +7,7 @@ import profil1 from "../img/testimonial/profil-1.jpg";
 
 const Testimonial = () => {
   return (
-    <Container>
+    <Container className={"testimonial"}>
       <div className={"title"}>
         <h2>What clients say?</h2>
         <h5>All the Lorem Ipsum generators on the Internet tend to repeat <br/>

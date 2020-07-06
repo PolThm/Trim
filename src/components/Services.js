@@ -22,7 +22,7 @@ class Services extends React.Component {
     }
 
     return (
-      <Container>
+      <Container className={"services"}>
         <div className={"title"}>
           <h2>What we do?</h2>
           <h5>All the Lorem Ipsum generators on the Internet tend to repeat <br/>

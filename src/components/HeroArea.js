@@ -5,7 +5,7 @@ import logo from "../img/hero_area/header_top/logo.png";
 
 const HeroArea = () => {
   return (
-    <header>
+    <header className={"hero_area"}>
       <Container className={"header_top"}>
         <Row>
           <Col xs={1} lg={3}>

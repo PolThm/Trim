@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13b3eb94-a424-4de7-bd60-c9b401600707" name="Default Changelist" comment="Testimonial : done (without the mechanic)">
+    <list default="true" id="13b3eb94-a424-4de7-bd60-c9b401600707" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/BlogPost.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/blog_post/img-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/blog_post/img-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/blog_post/img-post-3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BlogPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonial.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServiceBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimony.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimony.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +103,7 @@
       <updated>1593685259665</updated>
       <workItem from="1593685261518" duration="7542000" />
       <workItem from="1593771785248" duration="17144000" />
-      <workItem from="1593947394378" duration="28779000" />
+      <workItem from="1593947394378" duration="35671000" />
     </task>
     <task id="LOCAL-00001" summary="React Template">
       <created>1593707039538</created>
@@ -179,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594059742232</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="General update">
+      <created>1594060954910</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594060954910</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +227,7 @@
     <MESSAGE value="Portfolio : work in progress." />
     <MESSAGE value="Portfolio : done (without the slider working)" />
     <MESSAGE value="Testimonial : done (without the mechanic)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testimonial : done (without the mechanic)" />
+    <MESSAGE value="General update" />
+    <option name="LAST_COMMIT_MESSAGE" value="General update" />
   </component>
 </project>

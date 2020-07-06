@@ -18,7 +18,7 @@ class ServiceBox extends Component {
         <h3>{this.props.title}</h3>
         <h6>Sometimes an appointed commission <br/>
           parmanent semi organization great <br/>
-          machinery goverment.actual</h6>
+          machinery goverment actual.</h6>
       </div>
     )
   };
