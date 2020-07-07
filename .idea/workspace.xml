@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="13b3eb94-a424-4de7-bd60-c9b401600707" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonial.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonial.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +95,7 @@
       <workItem from="1593685261518" duration="7542000" />
       <workItem from="1593771785248" duration="17144000" />
       <workItem from="1593947394378" duration="47713000" />
-      <workItem from="1594134283833" duration="4467000" />
+      <workItem from="1594134283833" duration="6352000" />
     </task>
     <task id="LOCAL-00001" summary="React Template">
       <created>1593707039538</created>
@@ -226,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594117891243</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Navbar and all the responsive : done !">
+      <created>1594138821956</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1594138821956</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +267,7 @@
     <MESSAGE value="Responsive almost done (still miss the &quot;hamburger menu&quot;)" />
     <MESSAGE value="Small update on responsive" />
     <MESSAGE value="Small update on Footer's responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small update on Footer's responsive" />
+    <MESSAGE value="Navbar and all the responsive : done !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar and all the responsive : done !" />
   </component>
 </project>

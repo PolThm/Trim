@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     margin-right: 0;
-    .col {
+    .column {
       padding-bottom: 7vh;
       img {
         margin-top: -0.5rem;
@@ -59,6 +59,7 @@
 @media (max-width: 767px) {
   .content {
     text-align: center;
+    flex-direction: column;
   }
 }
 

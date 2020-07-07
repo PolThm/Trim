@@ -8,15 +8,15 @@ const Footer = () => {
     <footer className={"footer"}>
       <Container>
         <Row className={"content"}>
-          <Col xs={12} sm={6} md={3} className={"col"}>
+          <div className={"column"}>
             <Image className={"logo"} src={logo}/>
             <div className={"links"}>
               <div><a href="mailto:trimes@gmail.com">trimes@gmail.com</a></div>
               <div><a href="#">www.lambo.org</a></div>
               <div><a href="tel:+88967563846">+88 967 563 846</a></div>
             </div>
-          </Col>
-          <Col xs={12} sm={6} md={3} className={"col"}>
+          </div>
+          <div className={"column"}>
             <h4>Our Services</h4>
             <div className={"links"}>
               <div><a href="#">Keword Planning</a></div>
@@ -24,8 +24,8 @@ const Footer = () => {
               <div><a href="#">Website analysis</a></div>
               <div><a href="#">Content Optimization</a></div>
             </div>
-          </Col>
-          <Col xs={12} sm={6} md={3} className={"col"}>
+          </div>
+          <div className={"column"}>
             <h4>Conditation</h4>
             <div className={"links"}>
               <div><a href="#">Terms of services</a></div>
@@ -33,8 +33,8 @@ const Footer = () => {
               <div><a href="#">Privacy Policy</a></div>
               <div><a href="#">News & Post</a></div>
             </div>
-          </Col>
-          <Col xs={12} sm={6} md={3} className={"col"}>
+          </div>
+          <div className={"column"}>
             <h4>Quick Links</h4>
             <div className={"links"}>
               <div><a href="#">How we work</a></div>
@@ -42,7 +42,7 @@ const Footer = () => {
               <div><a href="#">Contact us</a></div>
               <div><a href="#">Price & Planning</a></div>
             </div>
-          </Col>
+          </div>
         </Row>
 
         <div className={"bottom"}>
