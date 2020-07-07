@@ -9,8 +9,9 @@
     padding-top: 34vh;
     display: flex;
     justify-content: space-between;
-
+    margin-right: 0;
     .col {
+      padding-bottom: 7vh;
       .links {
         height: 17vh;
         display: flex;
@@ -27,7 +28,6 @@
   }
 
   .bottom {
-    margin-top: 7vh;
     padding-bottom: 4vh;
     text-align: center;
     p {
@@ -45,8 +45,13 @@
 
 @media (max-width: 767px) {
   .content {
-    padding-top: 24vh !important;
-    flex-direction: column;
     text-align: center;
+  }
+}
+
+// Smartphones
+@media (max-width: 480px) {
+  .links {
+    padding-top: 20vh;
   }
 }
