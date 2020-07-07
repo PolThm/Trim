@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13b3eb94-a424-4de7-bd60-c9b401600707" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlogPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogPost.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ServiceBox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceBox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +87,7 @@
       <updated>1593685259665</updated>
       <workItem from="1593685261518" duration="7542000" />
       <workItem from="1593771785248" duration="17144000" />
-      <workItem from="1593947394378" duration="43669000" />
+      <workItem from="1593947394378" duration="43893000" />
     </task>
     <task id="LOCAL-00001" summary="React Template">
       <created>1593707039538</created>
@@ -201,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594077293784</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Responsive almost done (still miss the &quot;hamburger menu&quot;)">
+      <created>1594079824105</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594079824105</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +235,7 @@
     <MESSAGE value="General update" />
     <MESSAGE value="BlogPost : done (without the responsive)" />
     <MESSAGE value="Footer : done !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer : done !" />
+    <MESSAGE value="Responsive almost done (still miss the &quot;hamburger menu&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive almost done (still miss the &quot;hamburger menu&quot;)" />
   </component>
 </project>

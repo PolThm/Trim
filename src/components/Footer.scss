@@ -1,7 +1,7 @@
 .footer {
   background: url("../img/footer/footer-bg.jpg") no-repeat;
   background-size: cover;
-  min-height: 74vh;
+  min-height: 70vh;
   margin-top: 10vh;
   color: white;
 
@@ -28,7 +28,7 @@
 
   .bottom {
     margin-top: 7vh;
-    padding-bottom: 7vh;
+    padding-bottom: 4vh;
     text-align: center;
     p {
       margin-bottom: 0;
@@ -45,6 +45,7 @@
 
 @media (max-width: 767px) {
   .content {
+    padding-top: 24vh !important;
     flex-direction: column;
     text-align: center;
   }
