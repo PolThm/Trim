@@ -21,49 +21,47 @@ header {
     }
   }
 
-  nav {
-    width: 100%;
-    margin: 0 auto;
-    position: sticky;
-    top: 0;
-    ul {
-      list-style-type: none;
-      display: flex;
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      li {
-        flex: 1 1 auto;
-        text-align: center;
-        position: relative;
+  .navbar {
+    justify-content: flex-end;
+    #basic-navbar-nav {
+      padding-right: 0;
+      padding-left: 0;
+      .mr-auto {
+        margin-right: 0 !important;
+        text-align: end;
+        .link-left {
+          padding-left: 0 !important;
+        }
+        a {
+          color: $primary;
+          font-family: "Roboto", sans-serif;
+          font-weight: 500;
+          padding-top: 5px;
+          padding-left: 3.2rem;
+          padding-right: 0;
+          &:hover {
+            color: $tertiary;
+          }
+        }
       }
     }
-    a {
-      display: block;
-      text-decoration: none;
-      color: $primary;
-      border-bottom: 2px solid transparent;
-      padding: 5px 0;
-      &:hover {
-        color: $tertiary;
-      }
-    }
-    button {
-      margin-top: -5px;
-      padding: 10px 20px;
-      background-color: $tertiary;
-      border-radius: 4px;
-      border: transparent 2px solid;
-      color: white;
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      outline: none;
-      &:hover {
-        $time: 100ms;
-        transition: background-color $time ease-in-out, border $time ease-in-out, color $time ease-in-out;
-        background-color: transparent;
-        border: $tertiary 2px solid;
-        color: $tertiary;
-      }
+  }
+  button {
+    margin-top: -10px;
+    padding: 10px 20px;
+    background-color: $tertiary;
+    border-radius: 4px;
+    border: transparent 2px solid;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    outline: none;
+    &:hover {
+      $time: 100ms;
+      transition: background-color $time ease-in-out, border $time ease-in-out, color $time ease-in-out;
+      background-color: transparent;
+      border: $tertiary 2px solid;
+      color: $tertiary;
     }
   }
 }
@@ -96,5 +94,4 @@ header {
       border-image-slice: 1;
     }
   }
-
 }

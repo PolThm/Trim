@@ -66,35 +66,33 @@ header {
 .header_top .logo:hover {
   opacity: 0.8;
 }
-.header_top nav {
-  width: 100%;
-  margin: 0 auto;
-  position: sticky;
-  top: 0;
+.header_top .navbar {
+  justify-content: flex-end;
 }
-.header_top nav ul {
-  list-style-type: none;
-  display: flex;
+.header_top .navbar #basic-navbar-nav {
+  padding-right: 0;
+  padding-left: 0;
+}
+.header_top .navbar #basic-navbar-nav .mr-auto {
+  margin-right: 0 !important;
+  text-align: end;
+}
+.header_top .navbar #basic-navbar-nav .mr-auto .link-left {
+  padding-left: 0 !important;
+}
+.header_top .navbar #basic-navbar-nav .mr-auto a {
+  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  padding-top: 5px;
+  padding-left: 3.2rem;
+  padding-right: 0;
 }
-.header_top nav ul li {
-  flex: 1 1 auto;
-  text-align: center;
-  position: relative;
-}
-.header_top nav a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  border-bottom: 2px solid transparent;
-  padding: 5px 0;
-}
-.header_top nav a:hover {
+.header_top .navbar #basic-navbar-nav .mr-auto a:hover {
   color: #2f99c6;
 }
-.header_top nav button {
-  margin-top: -5px;
+.header_top button {
+  margin-top: -10px;
   padding: 10px 20px;
   background-color: #2f99c6;
   border-radius: 4px;
@@ -104,7 +102,7 @@ header {
   font-weight: 500;
   outline: none;
 }
-.header_top nav button:hover {
+.header_top button:hover {
   transition: background-color 100ms ease-in-out, border 100ms ease-in-out, color 100ms ease-in-out;
   background-color: transparent;
   border: #2f99c6 2px solid;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroArea.css'
-import {Container, Row, Col, Image} from "react-bootstrap";
+import {Container, Row, Col, Image, Navbar, Nav} from "react-bootstrap";
 import logo from "../img/hero_area/header_top/logo.png";
 
 const HeroArea = () => {
@@ -8,20 +8,23 @@ const HeroArea = () => {
     <header className={"hero_area"}>
       <Container className={"header_top"}>
         <Row>
-          <Col xs={1} lg={3}>
+          <Col xs={3}>
             <a href="#"><Image className={"logo"} src={logo} /></a>
           </Col>
-          <Col xs={11} lg={9}>
-            <nav>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><button>Contact Us</button></li>
-              </ul>
-            </nav>
+          <Col xs={9}>
+            <Navbar bg="transparent" expand="lg">
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                  <Nav.Link href="#home" className={"link-left"}>Home</Nav.Link>
+                  <Nav.Link href="#link">Services</Nav.Link>
+                  <Nav.Link href="#link">Project</Nav.Link>
+                  <Nav.Link href="#link">Testimonial</Nav.Link>
+                  <Nav.Link href="#link">Blog</Nav.Link>
+                  <Nav.Link href="#link"><button>Contact Us</button></Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
           </Col>
         </Row>
       </Container>
