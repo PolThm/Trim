@@ -73,8 +73,16 @@
   background-color: #a818ca;
 }
 
-.testimony-off {
+.on {
+  animation: fadeIn 2000ms forwards;
+}
+
+.testi {
   display: none;
+}
+
+.testi.on {
+  display: flex;
 }
 
 /*# sourceMappingURL=Testimonial.css.map */

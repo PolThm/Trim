@@ -8,53 +8,70 @@ import profil3 from "../img/testimonial/profil-3.jpg";
 
 class Testimonial extends React.Component {
   state = {
-    testimony1: "testimony-on",
-    testimony2: "testimony-off",
-    testimony3: "testimony-off",
-    sliderDot1: "slider-dot",
-    sliderDot2: "slider-dot on",
-    sliderDot3: "slider-dot",
+    testimony1: "on",
+    testimony2: null,
+    testimony3: null,
   };
 
+  timer;
+
+  componentDidMount() {
+    this.nextTestimony();
+  }
+
   nextTestimony = () => {
-    setTimeout(() => {
-      if (this.state.testimony1 === "testimony-on") {
+    this.timer = setTimeout(() => {
+      if (this.state.testimony1 === "on") {
         this.setState({
-          testimony1: "testimony-off",
-          testimony2: "testimony-on",
-          testimony3: "testimony-off",
-          sliderDot1: "slider-dot",
-          sliderDot2: "slider-dot",
-          sliderDot3: "slider-dot on",
+          testimony1: null,
+          testimony2: "on",
+          testimony3: null,
         })
       }
-      else if (this.state.testimony2 === "testimony-on") {
+      else if (this.state.testimony2 === "on") {
         this.setState({
-          testimony1: "testimony-off",
-          testimony2: "testimony-off",
-          testimony3: "testimony-on",
-          sliderDot1: "slider-dot on",
-          sliderDot2: "slider-dot",
-          sliderDot3: "slider-dot",
+          testimony1: null,
+          testimony2: null,
+          testimony3: "on",
         })
       }
-      else if (this.state.testimony3 === "testimony-on") {
+      else if (this.state.testimony3 === "on") {
         this.setState({
-          testimony1: "testimony-on",
-          testimony2: "testimony-off",
-          testimony3: "testimony-off",
-          sliderDot1: "slider-dot",
-          sliderDot2: "slider-dot on",
-          sliderDot3: "slider-dot",
+          testimony1: "on",
+          testimony2: null,
+          testimony3: null,
         })
       }
       this.nextTestimony();
     }, 7000)
   };
 
-  componentDidMount() {
-    this.nextTestimony();
-  }
+  testimony1On = () => {
+    this.setState({
+      testimony1: "on",
+      testimony2: null,
+      testimony3: null,
+    });
+    clearTimeout(this.timer);
+  };
+
+  testimony2On = () => {
+    this.setState({
+      testimony1: null,
+      testimony2: "on",
+      testimony3: null,
+    });
+    clearTimeout(this.timer);
+  };
+
+  testimony3On = () => {
+    this.setState({
+      testimony1: null,
+      testimony2: null,
+      testimony3: "on",
+    });
+    clearTimeout(this.timer);
+  };
 
   render() {
     return (
@@ -65,7 +82,7 @@ class Testimonial extends React.Component {
             predefined chunks as necessary making this the first</h5>
         </div>
         <div className={"content"}>
-          <div className={this.state.testimony1}>
+          <div className={`testi ${this.state.testimony1}`}>
             <Testimony
               picture={profil1}
               message={"“It is a long established fact that a reader will be distracted by the readable content" +
@@ -76,7 +93,7 @@ class Testimonial extends React.Component {
               job={"Marketing Lead"}
             />
           </div>
-          <div className={this.state.testimony2}>
+          <div className={`testi ${this.state.testimony2}`}>
             <Testimony
               picture={profil2}
               message={"“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" +
@@ -86,7 +103,7 @@ class Testimonial extends React.Component {
               job={"Comunity Manager"}
             />
           </div>
-          <div className={this.state.testimony3}>
+          <div className={`testi ${this.state.testimony3}`}>
             <Testimony
               picture={profil3}
               message={"“Magna fringilla urna porttitor rhoncus dolor purus. Suspendisse ultrices gravida dictum" +
@@ -97,9 +114,9 @@ class Testimonial extends React.Component {
             />
           </div>
           <div className={"slider"}>
-            <div className={this.state.sliderDot1}/>
-            <div className={this.state.sliderDot2}/>
-            <div className={this.state.sliderDot3}/>
+            <div className={`slider-dot ${this.state.testimony1}`} onClick={() => this.testimony1On()}/>
+            <div className={`slider-dot ${this.state.testimony2}`} onClick={() => this.testimony2On()}/>
+            <div className={`slider-dot ${this.state.testimony3}`} onClick={() => this.testimony3On()}/>
           </div>
         </div>
       </Container>

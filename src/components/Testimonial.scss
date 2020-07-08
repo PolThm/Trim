@@ -3,8 +3,8 @@
 .content {
   margin-top: 8vh;
   margin-right: 3.1rem;
-  //animation: fadeIn 2000ms forwards;
 }
+
 .slider {
   display: flex;
   justify-content: flex-end;
@@ -21,6 +21,13 @@
   }
 }
 
-.testimony-off {
+.on {
+  animation: fadeIn 2000ms forwards;
+}
+
+.testi {
   display: none;
+}
+.testi.on {
+  display: flex;
 }
