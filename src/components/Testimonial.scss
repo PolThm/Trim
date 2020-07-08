@@ -1,36 +1,26 @@
+@import "../sassLibs/keyframes";
+
 .content {
   margin-top: 8vh;
   margin-right: 3.1rem;
-  .profil-picture {
-    width: 80%;
+  //animation: fadeIn 2000ms forwards;
+}
+.slider {
+  display: flex;
+  justify-content: flex-end;
+  .slider-dot {
+    width: 25px;
+    height: 8px;
+    background-color: #33267c;
+    border-radius: 50px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
   }
-  .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .slider {
-    margin-top: -15px;
-    display: flex;
-    justify-content: flex-end;
-    .slider-dot {
-      width: 25px;
-      height: 8px;
-      background-color: #33267c;
-      border-radius: 50px;
-      margin: 0 5px 0 5px;
-      cursor: pointer;
-    }
-    .slider-dot.on {
-      background-color: #a818ca;
-    }
+  .slider-dot.on {
+    background-color: #a818ca;
   }
 }
 
-
-// Smartphones
-@media (max-width: 480px) {
-  .slider {
-    margin-top: 15px !important;
-  }
+.testimony-off {
+  display: none;
 }

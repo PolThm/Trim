@@ -1,22 +1,32 @@
-.message {
-  font-size: 1.25rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  text-align: justify;
+.profil-picture {
+  width: 80%;
+  border-radius: 4px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .message {
+    font-size: 1.25rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .author {
+    margin-top: 4.5vh;
+    font-size: 1.38rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+  }
+
+  .job {
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+    width: 50%;
+  }
 }
 
-.author {
-  margin-top: 4.5vh;
-  font-size: 1.38rem;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-}
-
-.job {
-  font-size: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  margin-bottom: 0;
-  width: 50%;
-}
