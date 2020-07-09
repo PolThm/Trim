@@ -1,1 +1,1 @@
-Fictional showcase site created with React and Bootsrap.
+Fictional showcase website created with React and Bootsrap.
