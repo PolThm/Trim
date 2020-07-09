@@ -5,6 +5,14 @@
   margin-right: 3.1rem;
 }
 
+.testi {
+  display: none;
+}
+.testi.on {
+  display: flex;
+  animation: fadeIn 2000ms forwards;
+}
+
 .slider {
   display: flex;
   justify-content: flex-end;
@@ -19,15 +27,4 @@
   .slider-dot.on {
     background-color: #a818ca;
   }
-}
-
-.on {
-  animation: fadeIn 2000ms forwards;
-}
-
-.testi {
-  display: none;
-}
-.testi.on {
-  display: flex;
 }

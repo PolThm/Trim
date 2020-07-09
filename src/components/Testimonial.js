@@ -10,7 +10,7 @@ class Testimonial extends React.Component {
   state = {
     testimony1: "on",
     testimony2: null,
-    testimony3: null,
+    testimony3: null
   };
 
   timer;

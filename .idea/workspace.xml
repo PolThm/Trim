@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b3eb94-a424-4de7-bd60-c9b401600707" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ServiceBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ServiceBox.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroArea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroArea.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServiceBox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceBox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonial.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonial.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonial.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimony.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimony.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sassLibs/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sassLibs/fonts.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sassLibs/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sassLibs/keyframes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sassLibs/keyframes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sassLibs/mediaQueries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sassLibs/mediaQueries.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sassLibs/mediaQueries.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,15 +65,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\polth\Documents\GitHub\trim\src" />
-      <recent name="C:\Users\polth\Documents\GitHub\trim\src\img" />
-      <recent name="C:\Users\polth\Documents\GitHub\trim\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\polth\Documents\GitHub\trim\src\img" />
       <recent name="C:\Users\polth\Documents\GitHub\trim\src" />
       <recent name="C:\Users\polth\Documents\GitHub\trim\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\polth\Documents\GitHub\trim\src" />
+      <recent name="C:\Users\polth\Documents\GitHub\trim\src\img" />
+      <recent name="C:\Users\polth\Documents\GitHub\trim\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +116,8 @@
       <workItem from="1593685261518" duration="7542000" />
       <workItem from="1593771785248" duration="17144000" />
       <workItem from="1593947394378" duration="47713000" />
-      <workItem from="1594134283833" duration="22188000" />
+      <workItem from="1594134283833" duration="22258000" />
+      <workItem from="1594285836685" duration="3705000" />
     </task>
     <task id="LOCAL-00001" summary="React Template">
       <created>1593707039538</created>
@@ -243,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594206131256</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Testimonials mechanic done !">
+      <created>1594216823413</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594216823413</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +312,7 @@
     <MESSAGE value="Navbar and all the responsive : done !" />
     <MESSAGE value="General update" />
     <MESSAGE value="Testimonials mechanic in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testimonials mechanic in progress" />
+    <MESSAGE value="Testimonials mechanic done !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testimonials mechanic done !" />
   </component>
 </project>

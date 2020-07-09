@@ -30,15 +30,16 @@ $primary: white;
     border: none;
     width: 100%;
     cursor: pointer;
-    transition: transform 100ms ease-in-out;
+    transition: transform 1000ms 100ms ease-in-out;
+    transform: translate(0, 0vh);
     &:hover {
-      transform: scale(1.05);
       opacity: 0.9;
     }
   }
   .card.on {
-    margin-top: 15vh;
+    transform: translate(0, -15vh);
   }
+
   .card.mirror {
     position: absolute;
     top: 0;
@@ -58,6 +59,7 @@ $primary: white;
   }
 
   .slider {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     .slider-dot {
