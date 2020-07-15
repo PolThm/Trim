@@ -14,6 +14,7 @@ header {
 }
 .header_top .navbar {
   justify-content: flex-end;
+  padding-right: 0;
 }
 .header_top .navbar #basic-navbar-nav {
   justify-content: flex-end;
