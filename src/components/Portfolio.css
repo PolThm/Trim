@@ -1,0 +1,87 @@
+.portfolio {
+  margin-top: 11vh;
+  min-height: 135vh;
+  background: url("../img/portfolio/bg/portfolio-bg.jpg") no-repeat;
+  background-size: cover;
+}
+.portfolio .title {
+  padding-top: 27vh;
+}
+.portfolio .title h2, .portfolio .title h5 {
+  color: white;
+}
+.portfolio .colCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portfolio .cards {
+  padding-bottom: 30vh;
+  display: flex;
+  justify-content: center;
+}
+.portfolio .card {
+  margin-top: 25vh;
+  background: transparent;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  transition: transform 1000ms 100ms ease-in-out;
+  transform: translate(0, 0vh);
+}
+.portfolio .card:hover {
+  opacity: 0.9;
+}
+.portfolio .card.on {
+  transform: translate(0, -15vh);
+}
+.portfolio .card.mirror {
+  position: absolute;
+  top: 0;
+  width: 92%;
+  opacity: 0.75;
+  filter: grayscale(33%);
+  cursor: default;
+}
+.portfolio .card.mirror:hover {
+  transform: none;
+}
+.portfolio .card.mirror.left {
+  left: -364px;
+}
+.portfolio .card.mirror.right {
+  left: 395px;
+}
+.portfolio .slider {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.portfolio .slider .slider-dot {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
+.portfolio .slider .slider-dot.on {
+  background-color: #f9be4e;
+}
+
+@media (max-width: 1885px) {
+  .card.mirror {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .colSides {
+    display: none;
+  }
+
+  .slider {
+    margin-top: 40px;
+  }
+}
+
+/*# sourceMappingURL=Portfolio.css.map */

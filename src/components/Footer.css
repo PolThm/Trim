@@ -1,0 +1,104 @@
+.footer {
+  background: url("../img/footer/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  margin-top: 10vh;
+  color: white;
+}
+.footer .content {
+  padding-top: 34vh;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0;
+}
+.footer .content .column {
+  padding-bottom: 7vh;
+}
+.footer .content .column img {
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+.footer .content .column h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+}
+.footer .content .column .links {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.footer .content .column .links div {
+  margin-bottom: 4.8px;
+}
+.footer .content .column .links div a {
+  color: white;
+}
+.footer .content .column.two {
+  text-align: left;
+  padding: 0 0 7vh 6%;
+}
+.footer .content .column.two .column-content {
+  display: inline-block;
+  text-align: left;
+}
+.footer .content .column.three {
+  text-align: center;
+  padding: 0 0 7vh 6%;
+}
+.footer .content .column.three .column-content {
+  display: inline-block;
+  text-align: left;
+}
+.footer .content .column.four {
+  text-align: right;
+  padding: 0;
+}
+.footer .content .column.four .column-content {
+  display: inline-block;
+  text-align: left;
+}
+.footer .content .column-content {
+  display: inline-block;
+  text-align: left;
+}
+.footer .bottom {
+  padding-bottom: 4vh;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.footer .bottom p {
+  margin-bottom: 0;
+}
+.footer .bottom p span a {
+  display: inline-block;
+  color: #f45c74;
+}
+.footer .bottom p span a:hover {
+  color: #fdcc92;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .content {
+    text-align: center !important;
+  }
+
+  .column {
+    text-align: center !important;
+    padding: 0 0 7vh 0 !important;
+  }
+  .column .column-content {
+    text-align: center !important;
+  }
+
+  .links {
+    height: 140px !important;
+  }
+}
+
+/*# sourceMappingURL=Footer.css.map */

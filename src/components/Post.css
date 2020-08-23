@@ -1,0 +1,73 @@
+.post {
+  border: 1px #efefef solid;
+  border-radius: 16px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  transition: transform 100ms ease-in-out;
+}
+.post:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+.post img {
+  width: 100%;
+  border-radius: 14px;
+}
+.post .dateBox {
+  display: flex;
+  justify-content: center;
+}
+.post .dateBox .date {
+  margin-top: -27px;
+  text-align: center;
+  padding: 15px 30px;
+  border-radius: 50px;
+  width: 50%;
+  font-size: 1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  background-color: #a818ca;
+  background-image: linear-gradient(to right, #ab3b9f, #292479);
+  background-origin: border-box;
+}
+.post .infos {
+  padding: 30px 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.post .infos .likes_coms {
+  display: flex;
+}
+.post .infos .likes_coms .coms {
+  margin-left: 30px;
+}
+.post .fas {
+  margin-right: 10px;
+}
+.post .fa-heart {
+  color: #b53da2;
+}
+.post p {
+  margin-bottom: 0;
+  padding: 30px 30px 40px 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .coms {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .toRemoveOnPhone {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Post.css.map */

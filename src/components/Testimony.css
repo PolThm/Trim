@@ -1,0 +1,32 @@
+.profil-picture {
+  width: 80%;
+  border-radius: 4px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text .message {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: justify;
+}
+.text .author {
+  margin-top: 4.5vh;
+  font-size: 1.38rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+.text .job {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+/*# sourceMappingURL=Testimony.css.map */
