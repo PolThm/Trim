@@ -29,7 +29,7 @@ const Footer = () => {
           </Col>
           <Col xs={6} md={3} className={"column three"}>
             <div className={"column-content"}>
-              <h4>Conditation</h4>
+              <h4>Conditions</h4>
               <div className={"links"}>
                 <div><a href="#">Terms of services</a></div>
                 <div><a href="#">Security Policy</a></div>
